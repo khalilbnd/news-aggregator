@@ -1,0 +1,43 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f0f0;
+    height: 100%;
+}
+
+#error-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.25rem;
+    color: #666;
+}
+
+.text-color-black {
+    color: #000;
+}
+
+i {
+    font-style: italic;
+    color: #ff0000; /* Red for the error message */
+}
